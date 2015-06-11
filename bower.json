@@ -6,7 +6,7 @@
     "@dnomak"
   ],
   "description": "Flexible Grid System 4 Sass Plus",
-  "main": "flexiblegs.sass",
+  "main": "_flexiblegs.sass",
   "keywords": [
     "css",
     "sass",
