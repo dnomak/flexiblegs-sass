@@ -1,10 +1,21 @@
 #[Flexible Grid System 4 Sass Plus](http://flexible.gs)
 
-Flexible Grid System is a Responsive CSS Framework
+Flexible Grid System 4 Sass Plus
+
+##Install
+
+####[Bower](http://bower.io)
+```
+$ bower install --save flexiblegs-sass-plus
+```
 
 ##Documentation
 - [English](https://github.com/flexiblegs/flexiblegs-docs/tree/master/en/) (Preparing)
 - [Turkish](https://github.com/flexiblegs/flexiblegs-docs/tree/master/tr/) (Preparing)
+
+##CodePen
+- Flexible Grid System 4 Sass Plus
+  - [http://codepen.io/dnomak/pen/eNEOvP](http://codepen.io/dnomak/pen/eNEOvP?editors=110)
 
 ##License
 - Flexible Grid System is licensed under the MIT license.
