@@ -1,4 +1,4 @@
-#[Flexible Grid System 4 Sass Plus](http://flexible.gs)
+#[flexible.gs](http://flexible.gs)
 
 Flexible Grid System 4 Sass Plus
 
