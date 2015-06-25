@@ -1,6 +1,6 @@
 #[flexiblegs-sass-plus](http://flexible.gs)
 
-Flexible Grid System 4 Sass Plus
+Flexible Grid System Sass Plus
 
 ##Install
 
