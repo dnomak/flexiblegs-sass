@@ -1,8 +1,4 @@
-// Flexible Grid System 4.0.1 | Sass Plus | MIT License | flexible.gs
-
-// wrap
-// +wrap
-// +wrap(col)
+// Flexible Grid System 5 | Sass Plus | MIT License | flexible.gs
 
 =wrap($col: null)
   @if $col == null
@@ -18,35 +14,28 @@
       -webkit-box-sizing: border-box
       -moz-box-sizing: border-box
       box-sizing: border-box
+  @else if $col == flexbox
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-flex-direction: row
+    -ms-flex-direction: row
+    flex-direction: row
+    -webkit-flex-wrap: wrap
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    -webkit-justify-content: center
+    -ms-justify-content: center
+    justify-content: center
+    -webkit-align-content: flex-start
+    -ms-align-content: flex-start
+    align-content: flex-start
   @else
     > *
       @if $col == auto
         width: auto
       @else
         width: 100% / $col
-
-// flexbox
-// +flexbox
-
-=flexbox()
-  display: -webkit-flex
-  display: -ms-flexbox
-  display: flex
-  -webkit-flex-direction: row
-  -ms-flex-direction: row
-  flex-direction: row
-  -webkit-flex-wrap: wrap
-  -ms-flex-wrap: wrap
-  flex-wrap: wrap
-  -webkit-justify-content: center
-  -ms-justify-content: center
-  justify-content: center
-  -webkit-align-content: flex-start
-  -ms-align-content: flex-start
-  align-content: flex-start
-
-// col
-// +col(col,row)
 
 =col($col: null, $row: null)
   @if $col == hidden
@@ -56,22 +45,16 @@
   @else
     width: 100% / $row * $col
 
-// gutter
-// +gutter(gutter,out)
-
-=gutter($gutter: null, $out: null)
+=gutter($gutter: null, $outside: null)
   @if $gutter
     margin-left: -#{$gutter}
     margin-right: -#{$gutter}
     > *
       padding-left: #{$gutter}
       padding-right: #{$gutter}
-  @if $out
+  @if $outside
     margin-left: 0
     margin-right: 0
-
-// align
-// +align(align)
 
 =align($align: null)
   @if $align == top
@@ -155,9 +138,6 @@
     -webkit-flex-wrap: wrap
     -ms-flex-wrap: wrap
     flex-wrap: wrap
-
-// breakpoints
-// +breakpoint(breakpoint)
 
 =breakpoint($breakpoint)
   @if $breakpoint == lg
