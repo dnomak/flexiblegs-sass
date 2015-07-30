@@ -1,12 +1,8 @@
 {
   "name": "flexiblegs-sass-plus",
-  "version": "5.2.0",
+  "version": "5.3.0",
   "homepage": "http://flexible.gs",
-  "authors": [
-    "@dnomak"
-  ],
   "description": "Flexible Grid System Sass Plus",
-  "main": "_flexiblegs.sass",
   "keywords": [
     "css",
     "sass",
@@ -15,14 +11,15 @@
     "responsive",
     "framework",
     "flexible",
-    "flexbox"
+    "flexbox",
+    "flex"
+  ],
+  "main": "flexiblegs.sass",
+  "authors": [
+    "@dnomak"
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "LICENCE.md",
-    "README.md"
+    "**/.*"
   ]
 }
