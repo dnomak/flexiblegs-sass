@@ -1,4 +1,4 @@
-// Flexible Grid System 5.3.1 | Scss Plus | MIT License | flexible.gs
+// Flexible Grid System 5.3.1 | Sass Plus | MIT License | flexible.gs
 
 =wrap($variable1: null, $variable2: null)
   @if $variable1 == null
@@ -189,13 +189,13 @@
   @else
     width: 100% / $variable2 * $variable1
 
-=breakpoint($breakpoint)
-  @if $breakpoint == lg
+=breakpoint($variable1)
+  @if $variable1 == lg
     @media (max-width: 1024px)
       @content
-  @else if $breakpoint == md
+  @else if $variable1 == md
     @media (max-width: 768px)
       @content
-  @else if $breakpoint == sm
+  @else if $variable1 == sm
     @media (max-width: 667px)
       @content
