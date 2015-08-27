@@ -4,9 +4,9 @@ Flexible Grid System Sass Plus
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs.sass)
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-plus.sass)
 ```sass
-@import "flexiblegs"
+@import "flexiblegs-plus"
 ```
 
 ### [Bower](http://bower.io)
