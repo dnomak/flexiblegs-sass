@@ -4,9 +4,9 @@ Flexible Grid System Sass Plus
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-plus.sass)
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-sass-plus.sass) the file and add the project as follows.
 ```sass
-@import "flexiblegs-plus"
+@import "flexiblegs-sass-plus"
 ```
 
 ### [npm](https://www.npmjs.com/package/flexiblegs-sass-plus)
@@ -14,7 +14,7 @@ Flexible Grid System Sass Plus
 $ npm install --save flexiblegs-sass-plus
 ```
 
-### [Bower](http://bower.io)
+### [bower](http://bower.io/search/?q=flexiblegs-sass-plus)
 ```
 $ bower install --save flexiblegs-sass-plus
 ```
