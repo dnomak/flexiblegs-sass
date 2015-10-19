@@ -4,7 +4,7 @@ Flexible Grid System Sass Plus
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-sass-plus.sass) the file and add the project as follows.
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-sass-plus.sass)
 ```sass
 @import "flexiblegs-sass-plus"
 ```
