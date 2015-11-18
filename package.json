@@ -1,8 +1,8 @@
 {
-  "name": "flexiblegs-sass-plus",
-  "version": "5.4.2",
+  "name": "flexiblegs-sass",
+  "version": "5.5.0",
   "homepage": "http://flexible.gs",
-  "description": "Flexible Grid System Sass Plus",
+  "description": "Flexible Grid System Sass",
   "keywords": [
     "css",
     "sass",
@@ -14,11 +14,11 @@
     "flexbox",
     "flex"
   ],
-  "main": "flexiblegs-sass-plus.sass",
+  "main": "flexiblegs-sass.sass",
   "author": "@dnomak",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flexiblegs/flexiblegs-sass-plus.git"
+    "url": "git+https://github.com/flexiblegs/flexiblegs-sass.git"
   }
 }

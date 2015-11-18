@@ -1,22 +1,22 @@
-# [flexiblegs-sass-plus](http://flexible.gs)
+# [flexiblegs-sass](http://flexible.gs)
 
-Flexible Grid System Sass Plus
+Flexible Grid System Sass
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs-sass-plus.sass)
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass/master/flexiblegs-sass.sass)
 ```sass
-@import "flexiblegs-sass-plus"
+@import "flexiblegs-sass"
 ```
 
-### [npm](https://www.npmjs.com/package/flexiblegs-sass-plus)
+### [npm](https://www.npmjs.com/package/flexiblegs-sass)
 ```
-$ npm install --save flexiblegs-sass-plus
+$ npm install --save flexiblegs-sass
 ```
 
-### [bower](http://bower.io/search/?q=flexiblegs-sass-plus)
+### [bower](http://bower.io/search/?q=flexiblegs-sass)
 ```
-$ bower install --save flexiblegs-sass-plus
+$ bower install --save flexiblegs-sass
 ```
 
 ## License
