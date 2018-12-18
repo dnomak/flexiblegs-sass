@@ -1,4 +1,4 @@
-/*! Flexible Grid System 5.5.3 | Sass | MIT License | flexible.gs */
+/*! Flexible Grid System 5.6.0 | Sass | MIT License | dnomak.com/flexiblegs */
 
 =wrap($prop: null, $val: null)
   @if $prop == null
@@ -124,6 +124,13 @@
     -webkit-align-content: space-between
     -ms-align-content: space-between
     align-content: space-between
+  @else if $prop == "stretch"
+    -webkit-align-content: stretch
+    -ms-align-content: stretch
+    align-content: stretch
+    -webkit-align-items: stretch
+    -ms-align-items: stretch
+    align-items: stretch
   @else if $prop == "around"
     -webkit-justify-content: space-around
     -ms-justify-content: space-around
@@ -164,10 +171,6 @@
     margin-right: 0
     padding-left: #{$val / 2}#{"px"}
     padding-right: #{$val / 2}#{"px"}
-  @else if $prop == "masonry"
-    -webkit-column-count: $val
-    -moz-column-count: $val
-    column-count: $val
   @else
     > *
       @if $prop == "auto"
