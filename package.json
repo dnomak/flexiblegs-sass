@@ -6,6 +6,11 @@
   "author": "@dnomak <me@dnomak.com>",
   "license": "MIT",
   "main": "flexiblegs-sass.sass",
+  "keywords": [
+    "css",
+    "sass",
+    "scss"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flexiblegs/flexiblegs-sass.git"
